@@ -1,0 +1,104 @@
+.social-face{
+	font-size: 18px;
+}
+
+.image-logo{
+	width: 90px;
+	height: 50px;
+}
+
+.texto-logo{
+	font-family: 'Dancing Script', cursive;
+	font-size: 24px;
+}
+
+.image{
+	width: 100%; 
+}
+
+.cursor{
+	cursor: pointer;
+}
+
+.texto-caption{
+	margin-bottom: 550px;
+	font-family: 'Dancing Script', cursive;
+}
+
+.card-noticias{
+	background: #6495ED; 
+}
+
+.card-noticias:hover{
+	background-color: #4682B4;
+}
+
+.texto-noticias{
+	color: #4682B4;
+}
+
+.texto-noticias:hover{
+	color: #6495ED;
+}
+
+.card-esportes{
+	background-color: #C0FF3E;
+}
+
+.card-esportes:hover{
+	background-color: #9ACD32;
+}
+
+.texto-esportes{
+	color: #9ACD32;
+}
+
+.image-card{
+	-webkit-filter: grayscale(100%);
+	transition: 1s;
+}
+
+.image-card:hover{
+	-webkit-filter: grayscale(0%);
+	transition: 1s;
+}
+
+.image-texto{
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 165px;
+}
+
+.image{
+	cursor: default;
+}
+
+.texto-esportes:hover{
+	color: #C0FF3E;
+}
+
+.card-opiniao{
+	background-color: #DDA0DD;
+}
+
+.card-opiniao:hover{
+	background-color: #EE82EE;
+}
+
+.texto-opiniao{
+	color: #EE82EE;
+}
+
+.texto-opiniao:hover{
+	color: #DDA0DD;
+}
+
+.row{
+	width: 100%;
+}
+
+footer{
+  background: #E8E8E8;
+  color: #3f3f3f;
+  padding-top: 2rem; 
+}

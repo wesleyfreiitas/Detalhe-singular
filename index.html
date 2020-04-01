@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Detalhe Singular</title>
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+ 	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Montserrat:600" rel="stylesheet">
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+
+		<div class="container">
+
+			<a class="texto-logo navbar-brand h1 mb-0 " href="index.html">Detalhe Singular</a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSite">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link">Home</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link">Quem somos</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link social-face"><span><i class="fab fa-facebook"></i></span></a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link social-face"><span><i class="fab fa-instagram"></i></span></a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="carouselSite" class="carousel slide" data-ride="carousel">
+
+		<ol class="carousel-indicators">
+			<li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselSite" data-slide-to="1"></li>
+			<li data-target="#carouselSite" data-slide-to="2"></li>
+		</ol>
+
+		<div class="carousel-inner">
+
+			<div class="carousel-item active">
+				<a href="#"><img src="img/casamento3.png" class="image img-fluid d-block"></a>
+				<div class="carousel-caption texto-caption" style="margin-bottom: 470px;">
+					<h1 class="display-4">Os melhores eventos de fortaleza!</h1>
+					<a href="#"><button type="button" class="btn cursor btn-primary-2 btn-lg">Faça já seu orçamento!</button></a>
+				</div>
+			</div>
+
+			<div class="carousel-item">
+				<a href="#"><img src="img/casamento.png" class="image img-fluid d-block"></a>
+				<div class="carousel-caption texto-caption" style="margin-bottom: 470px;">
+					<h1 class="display-4">Os melhores eventos de fortaleza!</h1>
+					<a href="#"><button type="button" class="btn cursor btn-primary-2 btn-lg">Faça já seu orçamento!</button></a>
+				</div>
+			</div>
+
+			<div class="carousel-item">
+				<a href="#"><img src="img/casamento2.png" class="image img-fluid d-block"></a>
+				<div class="carousel-caption texto-caption" style="margin-bottom: 470px;">
+					<h1 class="display-4">Os melhores eventos de fortaleza!</h1>
+					<a href="#"><button type="button" class="btn cursor btn-primary-2 btn-lg">Faça já seu orçamento!</button></a>
+				</div>
+			</div>
+
+		</div>
+
+		<a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+			<span class="sr-only">Anterior</span>
+		</a>
+
+		<a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+			<span class="carousel-control-next-icon"></span>
+			<span class="sr-only">Anterior</span>
+		</a>
+	</div>
+
+		<div class="row">
+
+			<div class="col-sm-4 image-card">
+				<div class="carousel-item active">
+					<img 
+					class="image-abaixo" 
+					style="width: 450px; height: 300px;" 
+					src="img/casamentoscard.png">
+					
+					<div class="carousel-caption ">
+						<h1 class="image-texto">CASAMENTOS</h1>
+						<button class="btn btn-outline-light">VER GALERIA</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-4 image-card">
+				<div class="carousel-item active">
+					<img 
+					class="image-abaixo" 
+					style="width: 450px; height: 300px;" 
+					src="img/15anos.png">
+					
+					<div class="carousel-caption ">
+						<h1 class="image-texto">15 ANOS</h1>
+						<button class="btn btn-outline-light">VER GALERIA</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-4 image-card">
+				<div class="carousel-item active">
+					<img 
+					class="image-abaixo" 
+					style="width: 450px; height: 300px;" 
+					src="img/corporativa.png">
+					
+					<div class="carousel-caption ">
+						<h1 class="image-texto">CORPORATIVO</h1>
+						<button class="btn btn-outline-light">VER GALERIA</button>
+					</div>
+				</div>
+			</div>
+ 	
+	<!-- ORÇAMENTO -->
+
+	<div style="margin-top: 100px;" class="container">
+		<div class="row">
+		
+				<div class="col-sm-6 ">
+					<img src="img/orcamento.png">
+				</div>
+
+				<div class="col-sm-6">
+					<h1 class="display-4">Faça seu orçamento!</h1>
+					<form>
+						<br>
+						Nome: <input type="text" name="nome" style="border-radius: 20px; width: 300px;">
+						<br><br>
+						<hr>
+						E-mail: <input type="email" name="nome" style="border-radius: 20px; width: 300px;">
+						<br><br>
+						<hr>
+						Mensagem: <br><br> <textarea rows="5" cols="47" maxlength="500"></textarea>
+						<br>
+						<br>
+						<div style="float: right;">
+							<input type="submit" class="btn btn-outline-dark" value="Enviar!">
+						</div>
+					</form>
+				</div>
+		</div>
+	</div>
+
+	
+
+
+ <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+</body>
+</html>
