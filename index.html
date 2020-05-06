@@ -10,6 +10,7 @@
  	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Montserrat:600" rel="stylesheet">
 
 </head>
+<header>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
 
@@ -128,46 +129,45 @@
 					style="width: 450px; height: 300px;" 
 					src="img/corporativa.png">
 					
-					<div class="carousel-caption ">
+					<div class="carousel-caption">
 						<h1 class="image-texto">CORPORATIVO</h1>
 						<button class="btn btn-outline-light">VER GALERIA</button>
 					</div>
 				</div>
 			</div>
- 	
+				<audio src="msc/musica.mp3" preload="auto" controls autoplay="true">
+				<p>musica</p>
+			</audio>
+</header> 	
 	<!-- ORÇAMENTO -->
-
-	<div style="margin-top: 100px;" class="container">
+<footer>
+	<div style="background: pink; width: 500px; height: 500px; display: block; position: absolute;">
+		<img src="img/Capturar2.jpg">
+	</div>
+	<div style="background: rgba(221,221,221,0.7); left: 440px; top: 126%; width: 500px; height: 500px;  position: absolute;">
+	</div>
 		<div class="row">
-		
-				<div class="col-sm-6 ">
-					<img src="img/orcamento.png">
-				</div>
-
-				<div class="col-sm-6">
-					<h1 class="display-4">Faça seu orçamento!</h1>
+			<div class="col-md-4" style="left: 500px;">
 					<form>
-						<br>
-						Nome: <input type="text" name="nome" style="border-radius: 20px; width: 300px;">
-						<br><br>
+						<div class="form-group">
+						<label for="exampleFormControlSelect1"><h1>Faça seu orçamento!</h1></label>
+						<input placeholder="Escreva seu nome" type="text" class="form-control" name="nome">
+						</div>
+						<div class="form-group">
 						<hr>
-						E-mail: <input type="email" name="nome" style="border-radius: 20px; width: 300px;">
-						<br><br>
+						<input placeholder="Escreva seu email" class="form-control" type="email" name="nome">
 						<hr>
-						Mensagem: <br><br> <textarea rows="5" cols="47" maxlength="500"></textarea>
-						<br>
-						<br>
-						<div style="float: right;">
-							<input type="submit" class="btn btn-outline-dark" value="Enviar!">
+						</div>
+						<div class="form-group">
+						<br><br> <textarea placeholder="Quais suas duvidas?" class="form-control" rows="5" cols="47" maxlength="500"></textarea>
+						</div>
+						<div class="form-group">
+							<input type="submit" class="btn btn-outline-dark form-control" value="Enviar!">
 						</div>
 					</form>
 				</div>
 		</div>
-	</div>
-
-	
-
-
+</footer>
  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.js"></script>

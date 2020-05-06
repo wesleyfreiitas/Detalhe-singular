@@ -1,3 +1,11 @@
+.footer{
+	width: 1355px;
+    height: 700px;
+    overflow: hidden;
+    position: absolute;
+}
+
+}
 .social-face{
 	font-size: 18px;
 }
@@ -95,10 +103,4 @@
 
 .row{
 	width: 100%;
-}
-
-footer{
-  background: #E8E8E8;
-  color: #3f3f3f;
-  padding-top: 2rem; 
 }
